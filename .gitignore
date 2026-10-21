@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated datasets and outputs
+# Uncomment these only if these folders exist and should not be committed.
+# data/raw/
+# data/private/
+# dataset/
+# outputs/
+# nb8_output/
+
+# Research paper and unpublished manuscript files
+# Keep the unpublished research paper outside the public repository.
+*.docx
+*.tex
+*.bib
+*.bbl
+*.bst
+*.cls
+*.sty
+*.synctex.gz
+
+# Common temporary files
+*.tmp
+*.log
